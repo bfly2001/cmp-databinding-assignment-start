@@ -17,3 +17,4 @@
 </div>
 <hr>
 <app-gamecontrol (intervalFired)="onIntervalFired($event)"></app-gamecontrol>
+<app-odd *ngFor="let oddNumber of oddNumbers" [number]="oddNumber"></app-odd>
